@@ -1,0 +1,59 @@
+/*
+ ============================================================================
+ Name        : Practica1.c
+ Author      : Leandro
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	setbuf(stdout,NULL);
+
+	int numero1;
+	int i = 0;
+	int resultado;
+	int respuestaScan;
+
+
+	for(&i;&i < 6;&i++){
+
+
+
+	}
+
+	printf("\nIngrese su primer numero : ");
+	fflush(stdin);
+	respuestaScan = scanf("%d",&numero1);
+	while(respuestaScan == 0){
+
+		printf("\nERROR ingrese un valor numerico ");
+		fflush(stdin);
+		respuestaScan = scanf("%d",&numero1);
+
+	}
+
+	printf("\nIngrese su segundo numero : ");
+	fflush(stdin);
+	respuestaScan = scanf("%d",&numero2);
+	while(respuestaScan == 0){
+
+		printf("\nERROR ingrese un valor numerico ");
+		fflush(stdin);
+		respuestaScan = scanf("%d",&numero2);
+
+	}
+
+
+	resultado = numero1 + numero2;
+	printf("\nLa respuesta del scan es :%d",respuestaScan);
+	printf("\nEl resultado de la suma es :%d",resultado);
+
+
+
+}

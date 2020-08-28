@@ -1,0 +1,41 @@
+/*
+ ============================================================================
+ Name        : Practica1.c
+ Author      : Leandro
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	setbuf(stdout,NULL);
+
+	int numero1;
+	int acumulador;
+	float resultado;
+	int respuestaScan;
+
+	resultado = 0;
+
+
+	for(int i=0;i < 5;i++){
+
+		printf("\nIngrese su primer numero : ");
+		fflush(stdin);
+		respuestaScan = scanf("%d",&numero1);
+		acumulador = acumulador + numero1;
+	}
+
+
+	resultado = acumulador / 5;
+	printf("\nLa respuesta del scan es :%d",respuestaScan);
+	printf("\nEl promedio es :%f",resultado);
+
+
+
+}
