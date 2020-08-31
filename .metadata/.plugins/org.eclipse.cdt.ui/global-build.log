@@ -1,9 +1,10 @@
-21:26:01 **** Incremental Build of configuration Debug for project Programacion1 Practica 1 ****
+20:30:01 **** Incremental Build of configuration Debug for project Clase 3 Funciones ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Programacion1 Practica 1.o" "..\\src\\Programacion1 Practica 1.c" 
-gcc -o "Programacion1 Practica 1.exe" "src\\Programacion1 Practica 1.o" 
-Info: Nothing to build for Programacion1 Practica 1
-21:26:24 **** Incremental Build of configuration Debug for project Programacion1 Practica 1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase 3 Funciones.o" "..\\src\\Clase 3 Funciones.c" 
+gcc -o "Clase 3 Funciones.exe" "src\\Clase 3 Funciones.o" 
+Info: Nothing to build for Clase 3 Funciones
+20:30:29 **** Incremental Build of configuration Debug for project Clase 3 Funciones ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Programacion1 Practica 1.o" "..\\src\\Programacion1 Practica 1.c" 
-gcc -o "Programacion1 Practica 1.exe" "src\\Programacion1 Practica 1.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase 3 Funciones.o" "..\\src\\Clase 3 Funciones.c" 
+gcc -o "Clase 3 Funciones.exe" "src\\Clase 3 Funciones.o" 
+Info: Nothing to build for Clase 3 Funciones
